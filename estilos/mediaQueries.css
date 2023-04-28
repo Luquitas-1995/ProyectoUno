@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1000px){
+
+
+
+/*/////////////////////////////////////* Header */
+
+.header .div_h{
+    display: none;
+}
+
+/*/////////////////////////////////////// Main */
+
+.Main {
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+.formacion{
+    grid-column: 2 / 4;
+    grid-row: 1 / 9;
+}
+
+.Main_Skills{
+    grid-column: 5 / 8;
+    grid-row: 1 / 8;
+}
+
+.Main_experienciaLaboral {
+    grid-column: 9 / 11;
+    grid-row: 1 / 8;
+}
+
+/*///////////////////////////////* Footer */
+
+.futer{
+    grid-template-columns: repeat(11,1fr);
+}
+.footer_div{
+    grid-column: 1 / 4;
+}
+.img_f{
+    margin-left: 4%;
+    width: 9vw ;
+    height: 9vh;
+}
+.img_i{
+    width: 9vw ;
+    height: 9vh;
+}
+
+.button_1{
+    background-color: rgb(222, 145, 19);
+    height:10vh ;
+    width: 20vw;
+    font-family: Silkscreen;
+    font-size: 1em;
+    
+}
+
+}
